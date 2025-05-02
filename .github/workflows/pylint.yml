@@ -1,7 +1,9 @@
 name: Pylint
 
-on: [push]
+permissions:
+  contents: read
 
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
